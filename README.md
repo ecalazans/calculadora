@@ -1,54 +1,69 @@
-# React + TypeScript + Vite
+# 🧮 Calculadora
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma calculadora simples e funcional feita em **React**, com suporte a operações básicas (adição, subtração, multiplicação e divisão). Projeto ideal para praticar componentes, estados e eventos em React.
 
-Currently, two official plugins are available:
+## 🚀 Demonstração
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Acesse o repositório: [github.com/ecalazans/calculadora](https://github.com/ecalazans/calculadora)
 
-## Expanding the ESLint configuration
+## 🛠 Tecnologias utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- React
+- TypeScript
+- Vite (ou outro bundler, se estiver usando)
+- CSS
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 📦 Instalação e uso
+
+Siga os passos abaixo para rodar o projeto localmente:
+
+1. **Clone o repositório:**
+
+```bash
+git clone https://github.com/ecalazans/calculadora.git
+cd calculadora
+```
+2. **Instale as dependências:**
+   npm install
+```# ou```
+   yarn
+
+3. **Execute o projeto:**
+   npm run dev
+```# ou```
+   yarn dev
+   
+4. **Abra o navegador e acesse:**
+   http://localhost:5173
+
+⚙️ **Funcionalidades**
+Interface intuitiva e responsiva
+
+  Operações matemáticas básicas:
+
+  Soma
+
+  Subtração
+
+  Multiplicação
+
+  Divisão
+
+  Limpar cálculo
+
+  Digitação via clique nos botões
+
+🧱 **Estrutura do projeto (exemplo)**
+```bash
+calculadora/
+├── public/
+├── src/
+│   ├── components/
+│   ├── App.tsx
+│   └── main.tsx
+├── package.json
+└── README.md
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+🤝 **Contribuições**
+Quer contribuir? Sinta-se à vontade para abrir issues ou enviar pull requests. Toda ajuda é bem-vinda!
