@@ -36,24 +36,25 @@ cd calculadora
 4. **Abra o navegador e acesse:**
    http://localhost:5173
 
-⚙️ **Funcionalidades**
+
+## ⚙️ Funcionalidades
 Interface intuitiva e responsiva
 
-  Operações matemáticas básicas:
+Operações matemáticas básicas:
 
-  Soma
+Soma
 
-  Subtração
+Subtração
 
-  Multiplicação
+Multiplicação
 
-  Divisão
+Divisão
 
-  Limpar cálculo
+Limpar cálculo
 
-  Digitação via clique nos botões
+Digitação via clique nos botões
 
-🧱 **Estrutura do projeto (exemplo)**
+## 🧱 Estrutura do projeto (exemplo)
 ```bash
 calculadora/
 ├── public/
